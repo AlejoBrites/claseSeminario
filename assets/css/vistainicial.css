@@ -1,0 +1,51 @@
+root { 
+    display: block;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+    display: block;
+    
+}
+body {
+    padding-top: 0px;  /*antes 50*/
+    background-color: rgb(197, 21, 35);
+    text-align: center;
+
+}
+.cabeza{
+    width:60%;
+    background-color: rgb(9, 19, 78);
+    margin:auto;
+
+}
+
+.footer{width:60%;
+        height: 120px;
+        color:rgb(0, 0, 0);
+        background-color: rgb(12, 19, 109);
+        font-size: 25px;
+        margin:auto;
+
+}
+.cuerpo{
+    width:60%;
+    background-color: rgb(172, 5, 5);
+    margin:auto;
+
+}
+.datos{width:120px;
+       height: 32px;
+       
+       border: 1px solid rgb(2, 2, 2);
+       background-color: rgb(250, 247, 247);}
+
+/*h1{padding: 0px;
+margin: 0px;}*/
+
+p{  padding: 0px;
+    color:rgb(0, 0, 0);
+    margin: 0px;}
